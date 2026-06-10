@@ -40,3 +40,13 @@ covering the use of IaC tools in security and red team operations.
 ---
 
 ## Project Structure
+
+Terraform-proxmox/
+├── main.tf                  # Terraform configuration
+├── terraform_output.txt     # Console output from successful apply
+├── screenshots/
+│   ├── 01_terraform_init.png
+│   ├── 02_terraform_plan.png
+│   ├── 03_terraform_apply.png
+│   └── 04_proxmox_vm_running.png
+└── README.md
